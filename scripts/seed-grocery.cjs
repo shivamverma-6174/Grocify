@@ -16,7 +16,7 @@ const seedItems = [
   {
     name: "Bananas",
     category: "Produce",
-    quantity: 6,
+    quantity: 7,
     priority: "medium",
     purchased: false,
   },
