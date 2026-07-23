@@ -3,6 +3,7 @@ import { useGroceryStore } from "../../store/grocery-store";
 
 const ListHeroCard = () => {
     const { items } = useGroceryStore();
+    
 
     const completedCount = items.filter((item) => item.purchased).length;
     const pendingCount = items.length - completedCount;
