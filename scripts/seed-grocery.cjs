@@ -32,7 +32,7 @@ const seedItems = [
     category: "Dairy",
     quantity: 2,
     priority: "medium",
-    purchased: true,
+    purchased: false,
   },
   {
     name: "Cheese",
